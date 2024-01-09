@@ -236,6 +236,11 @@ body {
   /* font-style: normal; */
   font-weight: 900;
 }
+.overlay-image{
+  position: absolute;
+  right: 250px;
+  top: 15%;
+}
 
 .txt-func-header .bold-orng {
   color: #f00;
