@@ -113,8 +113,11 @@ body {
   margin: 48px 0 0 126px;
   cursor: pointer;
   border-radius: 12px;
+  margin-left: -3%;
 }
-
+.btn-welcome{
+  margin-left: 15%;
+}
 .midnight-party img {
   padding: 68px 138px 67px 0px;
 }
