@@ -32,7 +32,7 @@ body {
   font-weight: 400;
 }
 
-.header-text {
+.header-txt {
   font-size: 72px;
   padding: 0px 344px 177px;
   font-weight: 900;
@@ -94,7 +94,7 @@ body {
   letter-spacing: 7.04px;
   padding: 126px 94px 24px 126px;
 }
-.party-text {
+.party-txt {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
   font-weight: 400;
@@ -112,7 +112,7 @@ body {
   font-size: 20px;
   margin: 48px 0 0 126px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 12px;
 }
 
 .midnight-party img {
@@ -413,4 +413,10 @@ footer {
 .phone,
 .website {
   display: flex;
+}
+.gallery-images div img:hover {
+  transform:scale(1.15);
+  cursor: pointer;
+  border: 8px solid #f00;
+  border-radius: 25px;
 }
